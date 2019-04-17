@@ -4,5 +4,8 @@
   "description": "primeiro desafio do curso",
   "main": "index.js",
   "author": "Maycon Alves <mayconmustaine@hotmail.com>",
-  "license": "mit"
+  "license": "mit",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
