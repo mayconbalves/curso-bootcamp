@@ -1,0 +1,8 @@
+{
+  "name": "desafio1",
+  "version": "1.0.0",
+  "description": "primeiro desafio do curso",
+  "main": "index.js",
+  "author": "Maycon Alves <mayconmustaine@hotmail.com>",
+  "license": "mit"
+}
