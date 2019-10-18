@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Maycon Alves <mayconmustaine@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
