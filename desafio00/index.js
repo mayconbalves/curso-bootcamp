@@ -6,7 +6,7 @@ server.use(express.json())
 const projects = []
 
 server.get('/projects', (req, res) => {
-  return res.send('Hello world')
+  return res.json(projects)
 })
 
 server.post('/projects', (req, res) => {
