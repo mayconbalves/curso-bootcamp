@@ -20,8 +20,9 @@ server.put('/projects/:id', (req, res) => {
   const { id } = req.params
   const { title } = req.body
 
-  projects[id] = title
+  const project = projects.find(p => p.id == id)
 
+  project.title = title
   return res.json(projects)
 })
 
